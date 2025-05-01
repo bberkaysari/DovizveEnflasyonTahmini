@@ -8,6 +8,8 @@ import requests
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.metrics import mean_squared_error
 import xgboost as xgb
+import os
+import json
 
 app = Flask(__name__)
 CORS(app)
@@ -21,18 +23,16 @@ def forecast():
     data = request.json
     selected_currency = data.get('currency', 'USD')
     frequency = data.get('frequency', '1')
-    start_date = data.get('start_date', None)  # For daily forecasts
-    end_date = data.get('end_date', None)      # For daily forecasts
+    start_date = data.get('start_date', None)
+    end_date = data.get('end_date', None)
 
-    # Define available currencies
     currencies = ['USD', 'EUR']
 
-    # Ensure data is cached
     for currency in currencies:
         if currency not in data_cache:
             series = f"TP.DK.{currency}.S.YTL"
-            startDate = "01-01-2020"
-            endDate = "10-03-2025"
+            startDate = "01-01-2019"
+            endDate = "23-12-2024"
             typee = "csv"
             aggregationTypes = "avg"
             formulas = "0"
@@ -45,7 +45,7 @@ def forecast():
 
             headers = {
                 "User-Agent": "Mozilla/5.0",
-                "key": "pgQUhmsXDd"
+                "key": "QIP7s50SVj"
             }
 
             response = requests.get(url, headers=headers, verify=False)
@@ -78,7 +78,6 @@ def forecast():
 
             data_cache[currency] = data
 
-    # Ensure models are cached
     if selected_currency not in model_cache:
         data = data_cache[selected_currency]
         p, d, q = 1, 1, 1
@@ -88,11 +87,10 @@ def forecast():
         sarima_fit = model.fit(disp=False)
         model_cache[selected_currency] = sarima_fit
 
-    # Generate forecast using cached model
     sarima_fit = model_cache[selected_currency]
     data = data_cache[selected_currency]
 
-    if frequency == "1":  # Daily forecast with date range
+    if frequency == "1":
         if not start_date or not end_date:
             return jsonify({"error": "Start date and end date must be provided for daily forecasts."})
 
@@ -114,7 +112,7 @@ def forecast():
             "type": "currency"
         }
 
-    else:  # Monthly forecast
+    else:
         future_dates = pd.date_range(start=data.index[-1] + pd.offsets.MonthBegin(1), periods=12, freq="M")
         forecast = sarima_fit.get_forecast(steps=12)
         forecast_values = forecast.predicted_mean.tolist()
@@ -132,7 +130,7 @@ def forecast():
 @app.route('/inflation', methods=['POST'])
 def inflation_forecast():
     try:
-        df = pd.read_csv('/Users/yusagca/Downloads/tufe.csv', sep=';')
+        df = pd.read_csv('tufe.csv', sep=';')
         df.columns = ['Tarih', 'Değer']
         df['Tarih'] = pd.to_datetime(df['Tarih'], format='%B.%Y')
         df['Yıl'] = df['Tarih'].dt.year
@@ -152,7 +150,6 @@ def inflation_forecast():
         future_dates = pd.DataFrame({'Yıl': [2024] * 12, 'Ay': list(range(1, 13))})
         future_pred = grid_search.best_estimator_.predict(future_dates)
 
-        # Convert float32 to float for JSON serialization
         future_pred = [float(pred) for pred in future_pred]
 
         results = {
@@ -164,7 +161,15 @@ def inflation_forecast():
         return jsonify(results)
 
     except Exception as e:
-        return jsonify({"error": "An error occurred during inflation forecast", "message": str(e)}), 500
+        return jsonify({"error": "An error occurre  d during inflation forecast", "message": str(e)}), 500
+
+@app.route("/forecast_static", methods=["GET"])
+def forecast_static():
+    if not os.path.exists("tahmin.json"):
+        return jsonify({"error": "Tahmin verisi mevcut değil. Lütfen model çalıştırılsın."}), 500
+    with open("tahmin.json", "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return jsonify(data)
 
 if __name__ == '__main__':
     app.run(debug=True)
