@@ -171,5 +171,13 @@ def forecast_static():
         data = json.load(f)
     return jsonify(data)
 
+@app.route("/inflation_static", methods=["GET"])
+def inflation_static():
+    if not os.path.exists("enflasyon_tahmin.json"):
+        return jsonify({"error": "Enflasyon tahmini mevcut değil."}), 500
+    with open("enflasyon_tahmin.json", "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return jsonify(data)
+
 if __name__ == '__main__':
     app.run(debug=True)
