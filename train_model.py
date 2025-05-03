@@ -8,6 +8,9 @@ from datetime import datetime, timedelta
 import os
 import urllib3
 from pytz import timezone
+from dotenv import load_dotenv
+load_dotenv()
+
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
