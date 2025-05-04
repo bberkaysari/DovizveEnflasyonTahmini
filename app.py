@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+from flask import send_from_directory
 import pandas as pd
 import numpy as np
 from statsmodels.tsa.statespace.sarimax import SARIMAX
@@ -12,7 +13,7 @@ import os
 import json
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 # Global cache for storing data and models
 data_cache = {}
@@ -179,5 +180,10 @@ def inflation_static():
         data = json.load(f)
     return jsonify(data)
 
+
+@app.route("/kur", methods=["GET"])
+def serve_kur_json():
+    return send_from_directory(directory=".", path="kur.json")
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=5000, debug=True)

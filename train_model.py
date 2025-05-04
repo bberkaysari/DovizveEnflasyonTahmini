@@ -153,5 +153,14 @@ with open("enflasyon_tahmin.json", "w", encoding="utf-8") as f:
             "TÜFE": enflasyon
         }
     }, f, ensure_ascii=False, indent=2)
+    # 🔢 Güncel döviz kurlarını ayrı bir JSON dosyasına kaydet
+    latest_rates = {
+        "USD": usd["real"][-1]["actual"] if usd["real"] else None,
+        "EUR": eur["real"][-1]["actual"] if eur["real"] else None,
+        "updated_at": turkey_now
+    }
+
+    with open("kur.json", "w", encoding="utf-8") as f:
+        json.dump(latest_rates, f, ensure_ascii=False, indent=2)
 
 print("✅ Döviz ve enflasyon tahminleri tamamlandı.")
