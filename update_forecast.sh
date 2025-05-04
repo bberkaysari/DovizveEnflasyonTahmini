@@ -14,4 +14,4 @@ git config user.email "bberkaysari0@gmail.com"
 # Değişiklikleri Git'e ekle, commit et ve pushla
 git add tahmin.json enflasyon_tahmin.json
 git commit -m "Otomatik güncelleme: $(date '+%Y-%m-%d %H:%M:%S')"
-git push origin
+git push origin dovizenflasyon
