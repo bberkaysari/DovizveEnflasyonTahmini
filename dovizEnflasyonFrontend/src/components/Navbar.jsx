@@ -11,7 +11,7 @@ const Navbar = () => {
   useEffect(() => {
     const fetchRates = async () => {
       try {
-        const res = await fetch("http://localhost:5001/kur");
+        const res = await fetch("http://localhost:5000/kur");
         const data = await res.json();
         setUsdRate(data.USD);
         setEurRate(data.EUR);
