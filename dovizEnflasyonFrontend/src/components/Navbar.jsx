@@ -5,9 +5,9 @@ import "remixicon/fonts/remixicon.css";
 const Navbar = () => {
   const [usdRate, setUsdRate] = useState(null);
   const [eurRate, setEurRate] = useState(null);
+  const [updatedAt, setUpdatedAt] = useState("");
   const [dateTime, setDateTime] = useState("");
 
-  // Kur verilerini backend'den (statik json) çek
   useEffect(() => {
     const fetchRates = async () => {
       try {
@@ -15,6 +15,7 @@ const Navbar = () => {
         const data = await res.json();
         setUsdRate(data.USD);
         setEurRate(data.EUR);
+        setUpdatedAt(data.updated_at);
       } catch (error) {
         console.error("Kur verileri alınamadı:", error);
       }
@@ -22,7 +23,6 @@ const Navbar = () => {
     fetchRates();
   }, []);
 
-  // Canlı tarih ve saat
   useEffect(() => {
     const updateDateTime = () => {
       const now = new Date();
@@ -41,29 +41,33 @@ const Navbar = () => {
   return (
     <nav className="bg-slate-900 border-b border-emerald-600 shadow-md">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-        {/* Logo */}
-        <h1 className="text-2xl font-extrabold text-emerald-500">
+
+        {/* Sol: Logo */}
+        <div className="text-emerald-500 font-extrabold text-2xl flex-shrink-0">
           <i className="ri-arrow-right-up-line"></i>Tahmincin
           <i className="text-red-500 ri-arrow-right-down-line"></i>
-        </h1>
+        </div>
 
-        {/* Kur verileri ve saat */}
-        <div className="text-slate-100 text-sm flex items-center space-x-6 mr-6">
+        {/* Orta: Kur ve güncelleme */}
+        <div className="text-center text-slate-100 text-sm">
           {usdRate && eurRate ? (
             <>
-              <div className="flex space-x-4">
-                <span>USD: {usdRate} ₺</span>
-                <span>EUR: {eurRate} ₺</span>
+              <div className="space-x-6">
+                <span>$: {usdRate} ₺</span>
+                <span>€: {eurRate} ₺</span>
               </div>
-              <span className="text-xs italic text-slate-400">{dateTime}</span>
+              <div className="text-xs italic text-slate-400 mt-1">
+                Son Güncelleme: {updatedAt}
+              </div>
             </>
           ) : (
             <span>Kur verileri alınıyor...</span>
           )}
         </div>
 
-        {/* Navigasyon */}
-        <div className="flex space-x-6">
+        {/* Sağ: Saat + Navigasyon */}
+        <div className="flex items-center space-x-6 text-slate-100">
+          <span className="text-xs italic text-slate-400">{dateTime}</span>
           <Link
             to="/"
             className="text-slate-200 hover:text-emerald-500 transition-all duration-300 font-medium text-lg"
@@ -77,6 +81,7 @@ const Navbar = () => {
             Tahmin
           </Link>
         </div>
+
       </div>
     </nav>
   );
