@@ -1,0 +1,38 @@
+name: Forecast Güncelleme
+
+on:
+  schedule:
+    - cron: '0 4 * * *' # UTC 04:00 = Türkiye 07:00
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Kodu klonla
+        uses: actions/checkout@v3
+
+      - name: Python ortamını ayarla
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Gerekli paketleri yükle
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Tahminleri güncelle
+        env:
+          EVDS_API_KEY: ${{ secrets.EVDS_API_KEY }}
+        run: |
+          python train_model.py
+
+      - name: Git ayarları ve push
+        run: |
+          git config user.name "bberkaysari"
+          git config user.email "bberkaysari0@gmail.com"
+          git add tahmin.json enflasyon_tahmin.json kur.json || true
+          git commit -m "🌀 Otomatik güncelleme: $(date '+%Y-%m-%d %H:%M:%S')" || echo "Değişiklik yok"
+          git push origin dovizenflasyon

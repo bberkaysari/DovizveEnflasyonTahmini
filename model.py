@@ -70,3 +70,6 @@ if __name__ == "__main__":
         json.dump(all_forecasts, f, ensure_ascii=False, indent=2)
 
     print("✅ tahmin.json başarıyla oluşturuldu.")
+
+
+
