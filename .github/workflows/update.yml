@@ -2,7 +2,7 @@ name: Forecast Güncelleme
 
 on:
   schedule:
-    - cron: '0 4 * * *' # UTC 04:00 = Türkiye 07:00
+    - cron: '0 4 * * *'  # Türkiye saatiyle sabah 07:00
   workflow_dispatch:
 
 jobs:
@@ -31,10 +31,10 @@ jobs:
 
       - name: Git ayarları ve push
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          run: |
-            git config user.name "bberkaysari"
-            git config user.email "bberkaysari0@gmail.com"
-            git add tahmin.json enflasyon_tahmin.json kur.json || true
-            git commit -m "🌀 Otomatik güncelleme: $(date '+%Y-%m-%d %H:%M:%S')" || echo "Değişiklik yok"
-            git push https://bberkaysari:${GH_TOKEN}@github.com/bberkaysari/DovizveEnflasyonTahmini.git || echo "Push başarısız"
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "bberkaysari"
+          git config user.email "bberkaysari0@gmail.com"
+          git add tahmin.json enflasyon_tahmin.json kur.json || true
+          git commit -m "🌀 Otomatik güncelleme: $(date '+%Y-%m-%d %H:%M:%S')" || echo "Değişiklik yok"
+          git push https://x-access-token:${GH_TOKEN}@github.com/bberkaysari/DovizveEnflasyonTahmini.git main
