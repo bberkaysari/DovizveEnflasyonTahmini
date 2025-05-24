@@ -2,12 +2,16 @@ name: Forecast Güncelleme
 
 on:
   schedule:
-    - cron: '0 4 * * *'  # Türkiye saatiyle sabah 07:00 (UTC 04:00)
+    - cron: '0 4 * * *'  # Türkiye saatiyle sabah 07:00
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
+
+    env:
+      EVDS_API_KEY: ${{ secrets.EVDS_API_KEY }}
+      TOKEN: ${{ secrets.ACTIONS_DEPLOY_TOKEN }}
 
     steps:
       - name: Kodu klonla
@@ -26,18 +30,15 @@ jobs:
           pip install -r requirements.txt
 
       - name: Tahminleri güncelle
-        env:
-          EVDS_API_KEY: ${{ secrets.EVDS_API_KEY }}
         run: |
           python train_model.py
 
       - name: Git ayarları ve push
-        env:
-          TOKEN: ${{ secrets.ACTIONS_DEPLOY_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${TOKEN}@github.com/bberkaysari/DovizveEnflasyonTahmini.git
+          git pull --rebase
           git add tahmin.json enflasyon_tahmin.json kur.json || true
-          git commit -m "🌀 Otomatik güncelleme: $(date '+%Y-%m-%d %H:%M:%S')" || echo "Değişiklik yok"
+          git commit -m "🌀 Otomatik güncelleme: $(date '+%Y-%m-%d %H:%M:%S')" || echo "No changes"
           git push origin main
