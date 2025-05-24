@@ -30,9 +30,11 @@ jobs:
           python train_model.py
 
       - name: Git ayarları ve push
-        run: |
-          git config user.name "bberkaysari"
-          git config user.email "bberkaysari0@gmail.com"
-          git add tahmin.json enflasyon_tahmin.json kur.json || true
-          git commit -m "🌀 Otomatik güncelleme: $(date '+%Y-%m-%d %H:%M:%S')" || echo "Değişiklik yok"
-          git push origin dovizenflasyon
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          run: |
+            git config user.name "bberkaysari"
+            git config user.email "bberkaysari0@gmail.com"
+            git add tahmin.json enflasyon_tahmin.json kur.json || true
+            git commit -m "🌀 Otomatik güncelleme: $(date '+%Y-%m-%d %H:%M:%S')" || echo "Değişiklik yok"
+            git push https://bberkaysari:${GH_TOKEN}@github.com/bberkaysari/DovizveEnflasyonTahmini.git || echo "Push başarısız"
