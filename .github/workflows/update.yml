@@ -2,7 +2,7 @@ name: Forecast Güncelleme
 
 on:
   schedule:
-    - cron: '0 4 * * *'  # Türkiye saatiyle sabah 07:00
+    - cron: '0 4 * * *'  # Türkiye saatiyle sabah 07:00 (UTC 04:00)
   workflow_dispatch:
 
 jobs:
@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Kodu klonla
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.ACTIONS_DEPLOY_TOKEN }}
 
       - name: Python ortamını ayarla
         uses: actions/setup-python@v4
@@ -33,8 +35,8 @@ jobs:
         env:
           TOKEN: ${{ secrets.ACTIONS_DEPLOY_TOKEN }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${TOKEN}@github.com/bberkaysari/DovizveEnflasyonTahmini.git
           git add tahmin.json enflasyon_tahmin.json kur.json || true
           git commit -m "🌀 Otomatik güncelleme: $(date '+%Y-%m-%d %H:%M:%S')" || echo "Değişiklik yok"
