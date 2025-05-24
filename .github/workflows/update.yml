@@ -37,8 +37,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${TOKEN}@github.com/bberkaysari/DovizveEnflasyonTahmini.git
-          git pull --rebase
           git add tahmin.json enflasyon_tahmin.json kur.json || true
           git commit -m "🌀 Otomatik güncelleme: $(date '+%Y-%m-%d %H:%M:%S')" || echo "No changes"
+          git pull --rebase
           git push origin main
