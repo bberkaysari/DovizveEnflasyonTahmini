@@ -2,40 +2,43 @@ name: Forecast Güncelleme
 
 on:
   schedule:
-    - cron: '0 4 * * *'  # Türkiye saatiyle sabah 07:00
+    - cron: '0 4 * * *'  # 🕖 Her sabah saat 07:00'de (Türkiye saatiyle) çalışır
   workflow_dispatch:
 
 jobs:
-  update:
+  train:
     runs-on: ubuntu-latest
+
+    env:
+      EVDS_API_KEY: ${{ secrets.EVDS_API_KEY }}
+      GH_TOKEN: ${{ secrets.ACTIONS_DEPLOY_TOKEN }}
 
     steps:
       - name: Kodu klonla
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.ACTIONS_DEPLOY_TOKEN }}
 
-      - name: Python ortamını ayarla
+      - name: Python kurulumu
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
-      - name: Gerekli paketleri yükle
+      - name: Gerekli kütüphaneleri yükle
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Tahminleri güncelle
-        env:
-          EVDS_API_KEY: ${{ secrets.EVDS_API_KEY }}
+      - name: Modeli eğit ve tahmin üret
         run: |
           python train_model.py
 
-      - name: Git ayarları ve push
-        env:
-          TOKEN: ${{ secrets.ACTIONS_DEPLOY_TOKEN }}
+      - name: JSON dosyalarını GitHub'a push et
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${TOKEN}@github.com/bberkaysari/DovizveEnflasyonTahmini.git
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "GitHub Actions Bot"
           git add tahmin.json enflasyon_tahmin.json kur.json || true
-          git commit -m "🌀 Otomatik güncelleme: $(date '+%Y-%m-%d %H:%M:%S')" || echo "Değişiklik yok"
-          git push origin main
+          git commit -m "🌀 Otomatik güncelleme: $(date '+%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+          git pull --rebase
+          git push
+        continue-on-error: true
