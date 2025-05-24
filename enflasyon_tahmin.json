@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-05-18 03:01:59",
+  "generated_at": "2025-05-24 20:21:52",
   "forecast_months": 12,
   "forecasts": {
     "TÜFE": {
@@ -781,14 +781,14 @@
         {
           "date": "2025-09-30",
           "prediction": 3473.9088,
-          "conf_low": 3259.8447,
-          "conf_high": 3687.9729
+          "conf_low": 3259.8448,
+          "conf_high": 3687.9728
         },
         {
           "date": "2025-10-31",
           "prediction": 3533.0649,
           "conf_low": 3303.0923,
-          "conf_high": 3763.0375
+          "conf_high": 3763.0374
         },
         {
           "date": "2025-11-30",
