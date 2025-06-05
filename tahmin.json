@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-06-04 07:24:45",
+  "generated_at": "2025-06-05 07:25:44",
   "forecast_days": 90,
   "forecasts": {
     "USD": {
@@ -4439,548 +4439,552 @@
         {
           "date": "2025-06-04",
           "actual": 39.1502
+        },
+        {
+          "date": "2025-06-05",
+          "actual": 39.1279
         }
       ],
       "forecast": [
         {
-          "date": "2025-06-05",
-          "prediction": 39.1965,
-          "conf_low": 38.8124,
-          "conf_high": 39.5807
-        },
-        {
           "date": "2025-06-06",
-          "prediction": 39.2429,
-          "conf_low": 38.6752,
-          "conf_high": 39.8106
+          "prediction": 39.1684,
+          "conf_low": 38.7848,
+          "conf_high": 39.552
         },
         {
           "date": "2025-06-07",
-          "prediction": 39.1429,
-          "conf_low": 38.4348,
-          "conf_high": 39.8509
+          "prediction": 39.0667,
+          "conf_low": 38.5006,
+          "conf_high": 39.6328
         },
         {
           "date": "2025-06-08",
-          "prediction": 39.1552,
-          "conf_low": 38.3298,
-          "conf_high": 39.9805
+          "prediction": 39.0786,
+          "conf_low": 38.3727,
+          "conf_high": 39.7846
         },
         {
           "date": "2025-06-09",
-          "prediction": 39.1368,
-          "conf_low": 38.2089,
-          "conf_high": 40.0648
+          "prediction": 39.0601,
+          "conf_low": 38.2374,
+          "conf_high": 39.8829
         },
         {
           "date": "2025-06-10",
-          "prediction": 39.154,
-          "conf_low": 38.1337,
-          "conf_high": 40.1743
+          "prediction": 39.0773,
+          "conf_low": 38.1523,
+          "conf_high": 40.0023
         },
         {
           "date": "2025-06-11",
-          "prediction": 39.153,
-          "conf_low": 38.048,
-          "conf_high": 40.258
+          "prediction": 39.0762,
+          "conf_low": 38.0592,
+          "conf_high": 40.0932
         },
         {
           "date": "2025-06-12",
-          "prediction": 39.201,
-          "conf_low": 38.0174,
-          "conf_high": 40.3847
+          "prediction": 39.1244,
+          "conf_low": 38.023,
+          "conf_high": 40.2258
         },
         {
           "date": "2025-06-13",
-          "prediction": 39.2525,
-          "conf_low": 37.9952,
-          "conf_high": 40.5099
+          "prediction": 39.1759,
+          "conf_low": 37.9961,
+          "conf_high": 40.3556
         },
         {
           "date": "2025-06-14",
-          "prediction": 39.3048,
-          "conf_low": 37.9778,
-          "conf_high": 40.6318
+          "prediction": 39.2283,
+          "conf_low": 37.9752,
+          "conf_high": 40.4815
         },
         {
           "date": "2025-06-15",
-          "prediction": 39.3836,
-          "conf_low": 37.9904,
-          "conf_high": 40.7767
+          "prediction": 39.3067,
+          "conf_low": 37.9841,
+          "conf_high": 40.6292
         },
         {
           "date": "2025-06-16",
-          "prediction": 39.4139,
-          "conf_low": 37.9576,
-          "conf_high": 40.8702
+          "prediction": 39.3371,
+          "conf_low": 37.9486,
+          "conf_high": 40.7256
         },
         {
           "date": "2025-06-17",
-          "prediction": 39.4715,
-          "conf_low": 37.9547,
-          "conf_high": 40.9884
+          "prediction": 39.3948,
+          "conf_low": 37.9434,
+          "conf_high": 40.8462
         },
         {
           "date": "2025-06-18",
-          "prediction": 39.5015,
-          "conf_low": 37.9264,
-          "conf_high": 41.0765
+          "prediction": 39.4248,
+          "conf_low": 37.9131,
+          "conf_high": 40.9365
         },
         {
           "date": "2025-06-19",
-          "prediction": 39.52,
-          "conf_low": 37.8888,
-          "conf_high": 41.1512
+          "prediction": 39.4432,
+          "conf_low": 37.8734,
+          "conf_high": 41.0129
         },
         {
           "date": "2025-06-20",
-          "prediction": 39.5563,
-          "conf_low": 37.8708,
-          "conf_high": 41.2417
+          "prediction": 39.4794,
+          "conf_low": 37.8538,
+          "conf_high": 41.1051
         },
         {
           "date": "2025-06-21",
-          "prediction": 39.5814,
-          "conf_low": 37.8434,
-          "conf_high": 41.3194
+          "prediction": 39.5047,
+          "conf_low": 37.825,
+          "conf_high": 41.1844
         },
         {
           "date": "2025-06-22",
-          "prediction": 39.6122,
-          "conf_low": 37.8232,
-          "conf_high": 41.4012
+          "prediction": 39.5355,
+          "conf_low": 37.8034,
+          "conf_high": 41.2676
         },
         {
           "date": "2025-06-23",
-          "prediction": 39.6574,
-          "conf_low": 37.8187,
-          "conf_high": 41.496
+          "prediction": 39.5807,
+          "conf_low": 37.7978,
+          "conf_high": 41.3637
         },
         {
           "date": "2025-06-24",
-          "prediction": 39.6887,
-          "conf_low": 37.8018,
-          "conf_high": 41.5757
+          "prediction": 39.6122,
+          "conf_low": 37.7798,
+          "conf_high": 41.4446
         },
         {
           "date": "2025-06-25",
-          "prediction": 39.7079,
-          "conf_low": 37.7738,
-          "conf_high": 41.6419
+          "prediction": 39.6314,
+          "conf_low": 37.7508,
+          "conf_high": 41.5119
         },
         {
           "date": "2025-06-26",
-          "prediction": 39.7251,
-          "conf_low": 37.7451,
-          "conf_high": 41.7051
+          "prediction": 39.6485,
+          "conf_low": 37.7211,
+          "conf_high": 41.576
         },
         {
           "date": "2025-06-27",
-          "prediction": 39.7324,
-          "conf_low": 37.7074,
-          "conf_high": 41.7574
+          "prediction": 39.6557,
+          "conf_low": 37.6824,
+          "conf_high": 41.629
         },
         {
           "date": "2025-06-28",
-          "prediction": 39.7249,
-          "conf_low": 37.656,
-          "conf_high": 41.7939
+          "prediction": 39.6482,
+          "conf_low": 37.6302,
+          "conf_high": 41.6663
         },
         {
           "date": "2025-06-29",
-          "prediction": 39.7905,
-          "conf_low": 37.6785,
-          "conf_high": 41.9025
+          "prediction": 39.7137,
+          "conf_low": 37.6519,
+          "conf_high": 41.7756
         },
         {
           "date": "2025-06-30",
-          "prediction": 39.8334,
-          "conf_low": 37.6793,
-          "conf_high": 41.9876
+          "prediction": 39.7567,
+          "conf_low": 37.6519,
+          "conf_high": 41.8614
         },
         {
           "date": "2025-07-01",
-          "prediction": 39.8616,
-          "conf_low": 37.6661,
-          "conf_high": 42.0571
+          "prediction": 39.785,
+          "conf_low": 37.6382,
+          "conf_high": 41.9318
         },
         {
           "date": "2025-07-02",
-          "prediction": 39.9086,
-          "conf_low": 37.6725,
-          "conf_high": 42.1447
+          "prediction": 39.8321,
+          "conf_low": 37.6441,
+          "conf_high": 42.0201
         },
         {
           "date": "2025-07-03",
-          "prediction": 39.9487,
-          "conf_low": 37.6727,
-          "conf_high": 42.2247
+          "prediction": 39.8724,
+          "conf_low": 37.6439,
+          "conf_high": 42.1009
         },
         {
           "date": "2025-07-04",
-          "prediction": 40.0,
-          "conf_low": 37.6848,
-          "conf_high": 42.3152
+          "prediction": 39.9238,
+          "conf_low": 37.6556,
+          "conf_high": 42.192
         },
         {
           "date": "2025-07-05",
-          "prediction": 40.0523,
-          "conf_low": 37.6976,
-          "conf_high": 42.407
+          "prediction": 39.9754,
+          "conf_low": 37.6681,
+          "conf_high": 42.2826
         },
         {
           "date": "2025-07-06",
-          "prediction": 40.1008,
-          "conf_low": 37.7072,
-          "conf_high": 42.4944
+          "prediction": 40.0238,
+          "conf_low": 37.6771,
+          "conf_high": 42.3704
         },
         {
           "date": "2025-07-07",
-          "prediction": 40.0026,
-          "conf_low": 37.5707,
-          "conf_high": 42.4345
+          "prediction": 39.9248,
+          "conf_low": 37.5394,
+          "conf_high": 42.3101
         },
         {
           "date": "2025-07-08",
-          "prediction": 40.0161,
-          "conf_low": 37.5466,
-          "conf_high": 42.4856
+          "prediction": 39.9381,
+          "conf_low": 37.5146,
+          "conf_high": 42.3615
         },
         {
           "date": "2025-07-09",
-          "prediction": 39.9983,
-          "conf_low": 37.4917,
-          "conf_high": 42.5049
+          "prediction": 39.9201,
+          "conf_low": 37.4591,
+          "conf_high": 42.3811
         },
         {
           "date": "2025-07-10",
-          "prediction": 40.0169,
-          "conf_low": 37.4738,
-          "conf_high": 42.5601
+          "prediction": 39.9387,
+          "conf_low": 37.4407,
+          "conf_high": 42.4366
         },
         {
           "date": "2025-07-11",
-          "prediction": 40.0159,
-          "conf_low": 37.4368,
-          "conf_high": 42.5951
+          "prediction": 39.9376,
+          "conf_low": 37.4033,
+          "conf_high": 42.472
         },
         {
           "date": "2025-07-12",
-          "prediction": 40.0633,
-          "conf_low": 37.4486,
-          "conf_high": 42.678
+          "prediction": 39.9852,
+          "conf_low": 37.4149,
+          "conf_high": 42.5554
         },
         {
           "date": "2025-07-13",
-          "prediction": 40.1141,
-          "conf_low": 37.4643,
-          "conf_high": 42.7638
+          "prediction": 40.0359,
+          "conf_low": 37.4303,
+          "conf_high": 42.6416
         },
         {
           "date": "2025-07-14",
-          "prediction": 40.1676,
-          "conf_low": 37.4833,
-          "conf_high": 42.852
+          "prediction": 40.0896,
+          "conf_low": 37.449,
+          "conf_high": 42.7302
         },
         {
           "date": "2025-07-15",
-          "prediction": 40.2455,
-          "conf_low": 37.527,
-          "conf_high": 42.964
+          "prediction": 40.1671,
+          "conf_low": 37.492,
+          "conf_high": 42.8422
         },
         {
           "date": "2025-07-16",
-          "prediction": 40.2759,
-          "conf_low": 37.5236,
-          "conf_high": 43.0281
+          "prediction": 40.1975,
+          "conf_low": 37.4884,
+          "conf_high": 42.9067
         },
         {
           "date": "2025-07-17",
-          "prediction": 40.3326,
-          "conf_low": 37.5471,
-          "conf_high": 43.1182
+          "prediction": 40.2544,
+          "conf_low": 37.5117,
+          "conf_high": 42.9972
         },
         {
           "date": "2025-07-18",
-          "prediction": 40.3624,
-          "conf_low": 37.5439,
-          "conf_high": 43.1809
+          "prediction": 40.2843,
+          "conf_low": 37.5083,
+          "conf_high": 43.0602
         },
         {
           "date": "2025-07-19",
-          "prediction": 40.3821,
-          "conf_low": 37.5311,
-          "conf_high": 43.2331
+          "prediction": 40.3038,
+          "conf_low": 37.495,
+          "conf_high": 43.1125
         },
         {
           "date": "2025-07-20",
-          "prediction": 40.4184,
-          "conf_low": 37.5352,
-          "conf_high": 43.3016
+          "prediction": 40.34,
+          "conf_low": 37.4988,
+          "conf_high": 43.1812
         },
         {
           "date": "2025-07-21",
-          "prediction": 40.4429,
-          "conf_low": 37.5279,
-          "conf_high": 43.358
+          "prediction": 40.3647,
+          "conf_low": 37.4914,
+          "conf_high": 43.238
         },
         {
           "date": "2025-07-22",
-          "prediction": 40.4725,
-          "conf_low": 37.526,
-          "conf_high": 43.419
+          "prediction": 40.3943,
+          "conf_low": 37.4893,
+          "conf_high": 43.2993
         },
         {
           "date": "2025-07-23",
-          "prediction": 40.5164,
-          "conf_low": 37.5388,
-          "conf_high": 43.4941
+          "prediction": 40.4384,
+          "conf_low": 37.502,
+          "conf_high": 43.3747
         },
         {
           "date": "2025-07-24",
-          "prediction": 40.5498,
-          "conf_low": 37.5413,
-          "conf_high": 43.5583
+          "prediction": 40.4718,
+          "conf_low": 37.5044,
+          "conf_high": 43.4392
         },
         {
           "date": "2025-07-25",
-          "prediction": 40.5686,
-          "conf_low": 37.5296,
-          "conf_high": 43.6076
+          "prediction": 40.4906,
+          "conf_low": 37.4924,
+          "conf_high": 43.4887
         },
         {
           "date": "2025-07-26",
-          "prediction": 40.586,
-          "conf_low": 37.5168,
-          "conf_high": 43.6552
+          "prediction": 40.508,
+          "conf_low": 37.4795,
+          "conf_high": 43.5365
         },
         {
           "date": "2025-07-27",
-          "prediction": 40.5935,
-          "conf_low": 37.4944,
-          "conf_high": 43.6927
+          "prediction": 40.5153,
+          "conf_low": 37.4567,
+          "conf_high": 43.574
         },
         {
           "date": "2025-07-28",
-          "prediction": 40.5872,
-          "conf_low": 37.4585,
-          "conf_high": 43.716
+          "prediction": 40.509,
+          "conf_low": 37.4205,
+          "conf_high": 43.5974
         },
         {
           "date": "2025-07-29",
-          "prediction": 40.652,
-          "conf_low": 37.4939,
-          "conf_high": 43.8101
+          "prediction": 40.5738,
+          "conf_low": 37.4558,
+          "conf_high": 43.6917
         },
         {
           "date": "2025-07-30",
-          "prediction": 40.6955,
-          "conf_low": 37.5083,
-          "conf_high": 43.8827
+          "prediction": 40.6172,
+          "conf_low": 37.47,
+          "conf_high": 43.7644
         },
         {
           "date": "2025-07-31",
-          "prediction": 40.7238,
-          "conf_low": 37.5078,
-          "conf_high": 43.9398
+          "prediction": 40.6457,
+          "conf_low": 37.4694,
+          "conf_high": 43.8219
         },
         {
           "date": "2025-08-01",
-          "prediction": 40.7707,
-          "conf_low": 37.5261,
-          "conf_high": 44.0153
+          "prediction": 40.6927,
+          "conf_low": 37.4878,
+          "conf_high": 43.8977
         },
         {
           "date": "2025-08-02",
-          "prediction": 40.811,
-          "conf_low": 37.5381,
-          "conf_high": 44.0839
+          "prediction": 40.7331,
+          "conf_low": 37.4997,
+          "conf_high": 43.9665
         },
         {
           "date": "2025-08-03",
-          "prediction": 40.8611,
-          "conf_low": 37.5601,
-          "conf_high": 44.162
+          "prediction": 40.7834,
+          "conf_low": 37.5218,
+          "conf_high": 44.045
         },
         {
           "date": "2025-08-04",
-          "prediction": 40.9133,
-          "conf_low": 37.5831,
-          "conf_high": 44.2435
+          "prediction": 40.8339,
+          "conf_low": 37.5443,
+          "conf_high": 44.1235
         },
         {
           "date": "2025-08-05",
-          "prediction": 40.9618,
-          "conf_low": 37.6025,
-          "conf_high": 44.321
+          "prediction": 40.8822,
+          "conf_low": 37.5635,
+          "conf_high": 44.2009
         },
         {
           "date": "2025-08-06",
-          "prediction": 40.8636,
-          "conf_low": 37.4756,
-          "conf_high": 44.2515
+          "prediction": 40.7832,
+          "conf_low": 37.4357,
+          "conf_high": 44.1308
         },
         {
           "date": "2025-08-07",
-          "prediction": 40.877,
-          "conf_low": 37.4605,
-          "conf_high": 44.2936
+          "prediction": 40.7965,
+          "conf_low": 37.4203,
+          "conf_high": 44.1727
         },
         {
           "date": "2025-08-08",
-          "prediction": 40.8592,
-          "conf_low": 37.4144,
-          "conf_high": 44.304
+          "prediction": 40.7785,
+          "conf_low": 37.3739,
+          "conf_high": 44.1831
         },
         {
           "date": "2025-08-09",
-          "prediction": 40.8778,
-          "conf_low": 37.405,
-          "conf_high": 44.3507
+          "prediction": 40.797,
+          "conf_low": 37.3643,
+          "conf_high": 44.2298
         },
         {
           "date": "2025-08-10",
-          "prediction": 40.8768,
-          "conf_low": 37.3761,
-          "conf_high": 44.3775
+          "prediction": 40.796,
+          "conf_low": 37.3353,
+          "conf_high": 44.2567
         },
         {
           "date": "2025-08-11",
-          "prediction": 40.9242,
-          "conf_low": 37.3959,
-          "conf_high": 44.4525
+          "prediction": 40.8436,
+          "conf_low": 37.3552,
+          "conf_high": 44.332
         },
         {
           "date": "2025-08-12",
-          "prediction": 40.975,
-          "conf_low": 37.4193,
-          "conf_high": 44.5307
+          "prediction": 40.8944,
+          "conf_low": 37.3785,
+          "conf_high": 44.4103
         },
         {
           "date": "2025-08-13",
-          "prediction": 41.0285,
-          "conf_low": 37.4456,
-          "conf_high": 44.6114
+          "prediction": 40.948,
+          "conf_low": 37.4048,
+          "conf_high": 44.4912
         },
         {
           "date": "2025-08-14",
-          "prediction": 41.1064,
-          "conf_low": 37.4966,
-          "conf_high": 44.7163
+          "prediction": 41.0255,
+          "conf_low": 37.4552,
+          "conf_high": 44.5958
         },
         {
           "date": "2025-08-15",
-          "prediction": 41.1368,
-          "conf_low": 37.5001,
-          "conf_high": 44.7734
+          "prediction": 41.0559,
+          "conf_low": 37.4588,
+          "conf_high": 44.6531
         },
         {
           "date": "2025-08-16",
-          "prediction": 41.1935,
-          "conf_low": 37.5303,
-          "conf_high": 44.8567
+          "prediction": 41.1128,
+          "conf_low": 37.489,
+          "conf_high": 44.7366
         },
         {
           "date": "2025-08-17",
-          "prediction": 41.2233,
-          "conf_low": 37.5337,
-          "conf_high": 44.9129
+          "prediction": 41.1427,
+          "conf_low": 37.4924,
+          "conf_high": 44.7929
         },
         {
           "date": "2025-08-18",
-          "prediction": 41.243,
-          "conf_low": 37.5272,
-          "conf_high": 44.9588
+          "prediction": 41.1622,
+          "conf_low": 37.4856,
+          "conf_high": 44.8387
         },
         {
           "date": "2025-08-19",
-          "prediction": 41.2793,
-          "conf_low": 37.5375,
-          "conf_high": 45.0211
+          "prediction": 41.1984,
+          "conf_low": 37.4958,
+          "conf_high": 44.9011
         },
         {
           "date": "2025-08-20",
-          "prediction": 41.3038,
-          "conf_low": 37.5362,
-          "conf_high": 45.0715
+          "prediction": 41.2231,
+          "conf_low": 37.4945,
+          "conf_high": 44.9517
         },
         {
           "date": "2025-08-21",
-          "prediction": 41.3334,
-          "conf_low": 37.5401,
-          "conf_high": 45.1267
+          "prediction": 41.2528,
+          "conf_low": 37.4984,
+          "conf_high": 45.0071
         },
         {
           "date": "2025-08-22",
-          "prediction": 41.3774,
-          "conf_low": 37.5585,
-          "conf_high": 45.1962
+          "prediction": 41.2968,
+          "conf_low": 37.517,
+          "conf_high": 45.0767
         },
         {
           "date": "2025-08-23",
-          "prediction": 41.4107,
-          "conf_low": 37.5666,
-          "conf_high": 45.2549
+          "prediction": 41.3303,
+          "conf_low": 37.525,
+          "conf_high": 45.1355
         },
         {
           "date": "2025-08-24",
-          "prediction": 41.4295,
-          "conf_low": 37.5602,
-          "conf_high": 45.2988
+          "prediction": 41.349,
+          "conf_low": 37.5185,
+          "conf_high": 45.1795
         },
         {
           "date": "2025-08-25",
-          "prediction": 41.447,
-          "conf_low": 37.5526,
-          "conf_high": 45.3413
+          "prediction": 41.3664,
+          "conf_low": 37.5109,
+          "conf_high": 45.2219
         },
         {
           "date": "2025-08-26",
-          "prediction": 41.4545,
-          "conf_low": 37.5353,
-          "conf_high": 45.3736
+          "prediction": 41.3738,
+          "conf_low": 37.4933,
+          "conf_high": 45.2542
         },
         {
           "date": "2025-08-27",
-          "prediction": 41.4481,
-          "conf_low": 37.5043,
-          "conf_high": 45.392
+          "prediction": 41.3674,
+          "conf_low": 37.4622,
+          "conf_high": 45.2725
         },
         {
           "date": "2025-08-28",
-          "prediction": 41.5129,
-          "conf_low": 37.5446,
-          "conf_high": 45.4813
+          "prediction": 41.4322,
+          "conf_low": 37.5024,
+          "conf_high": 45.3619
         },
         {
           "date": "2025-08-29",
-          "prediction": 41.5564,
-          "conf_low": 37.5636,
-          "conf_high": 45.5491
+          "prediction": 41.4756,
+          "conf_low": 37.5214,
+          "conf_high": 45.4298
         },
         {
           "date": "2025-08-30",
-          "prediction": 41.5847,
-          "conf_low": 37.5677,
-          "conf_high": 45.6017
+          "prediction": 41.5041,
+          "conf_low": 37.5256,
+          "conf_high": 45.4825
         },
         {
           "date": "2025-08-31",
-          "prediction": 41.6316,
-          "conf_low": 37.5906,
-          "conf_high": 45.6727
+          "prediction": 41.5511,
+          "conf_low": 37.5485,
+          "conf_high": 45.5537
         },
         {
           "date": "2025-09-01",
-          "prediction": 41.6719,
-          "conf_low": 37.6069,
-          "conf_high": 45.7369
+          "prediction": 41.5915,
+          "conf_low": 37.565,
+          "conf_high": 45.6181
         },
         {
           "date": "2025-09-02",
-          "prediction": 41.722,
-          "conf_low": 37.6332,
-          "conf_high": 45.8108
+          "prediction": 41.6418,
+          "conf_low": 37.5914,
+          "conf_high": 45.6922
+        },
+        {
+          "date": "2025-09-03",
+          "prediction": 41.6924,
+          "conf_low": 37.6183,
+          "conf_high": 45.7665
         }
       ]
     },
@@ -9421,548 +9425,552 @@
         {
           "date": "2025-06-04",
           "actual": 44.6681
+        },
+        {
+          "date": "2025-06-05",
+          "actual": 44.5474
         }
       ],
       "forecast": [
         {
-          "date": "2025-06-05",
-          "prediction": 44.7273,
-          "conf_low": 44.2467,
-          "conf_high": 45.2079
-        },
-        {
           "date": "2025-06-06",
-          "prediction": 44.7959,
-          "conf_low": 44.083,
-          "conf_high": 45.5088
+          "prediction": 44.5991,
+          "conf_low": 44.1185,
+          "conf_high": 45.0796
         },
         {
           "date": "2025-06-07",
-          "prediction": 44.7075,
-          "conf_low": 43.819,
-          "conf_high": 45.596
+          "prediction": 44.509,
+          "conf_low": 43.7961,
+          "conf_high": 45.2218
         },
         {
           "date": "2025-06-08",
-          "prediction": 44.7375,
-          "conf_low": 43.7025,
-          "conf_high": 45.7724
+          "prediction": 44.5386,
+          "conf_low": 43.6502,
+          "conf_high": 45.427
         },
         {
           "date": "2025-06-09",
-          "prediction": 44.7151,
-          "conf_low": 43.552,
-          "conf_high": 45.8782
+          "prediction": 44.5162,
+          "conf_low": 43.4815,
+          "conf_high": 45.5509
         },
         {
           "date": "2025-06-10",
-          "prediction": 44.7417,
-          "conf_low": 43.4633,
-          "conf_high": 46.0202
+          "prediction": 44.5428,
+          "conf_low": 43.38,
+          "conf_high": 45.7056
         },
         {
           "date": "2025-06-11",
-          "prediction": 44.7362,
-          "conf_low": 43.3519,
-          "conf_high": 46.1204
+          "prediction": 44.5374,
+          "conf_low": 43.2593,
+          "conf_high": 45.8155
         },
         {
           "date": "2025-06-12",
-          "prediction": 44.7824,
-          "conf_low": 43.2999,
-          "conf_high": 46.2649
+          "prediction": 44.5836,
+          "conf_low": 43.1998,
+          "conf_high": 45.9675
         },
         {
           "date": "2025-06-13",
-          "prediction": 44.8275,
-          "conf_low": 43.2529,
-          "conf_high": 46.4022
+          "prediction": 44.6288,
+          "conf_low": 43.1467,
+          "conf_high": 46.1108
         },
         {
           "date": "2025-06-14",
-          "prediction": 44.904,
-          "conf_low": 43.2423,
-          "conf_high": 46.5656
+          "prediction": 44.7052,
+          "conf_low": 43.1311,
+          "conf_high": 46.2794
         },
         {
           "date": "2025-06-15",
-          "prediction": 44.9734,
-          "conf_low": 43.229,
-          "conf_high": 46.7177
+          "prediction": 44.7744,
+          "conf_low": 43.1133,
+          "conf_high": 46.4356
         },
         {
           "date": "2025-06-16",
-          "prediction": 44.9754,
-          "conf_low": 43.152,
-          "conf_high": 46.7987
+          "prediction": 44.7765,
+          "conf_low": 43.0327,
+          "conf_high": 46.5203
         },
         {
           "date": "2025-06-17",
-          "prediction": 45.022,
-          "conf_low": 43.123,
-          "conf_high": 46.921
+          "prediction": 44.8232,
+          "conf_low": 43.0004,
+          "conf_high": 46.6459
         },
         {
           "date": "2025-06-18",
-          "prediction": 45.0834,
-          "conf_low": 43.1116,
-          "conf_high": 47.0552
+          "prediction": 44.8845,
+          "conf_low": 42.9862,
+          "conf_high": 46.7828
         },
         {
           "date": "2025-06-19",
-          "prediction": 45.075,
-          "conf_low": 43.033,
-          "conf_high": 47.1169
+          "prediction": 44.8759,
+          "conf_low": 42.9048,
+          "conf_high": 46.847
         },
         {
           "date": "2025-06-20",
-          "prediction": 45.1117,
-          "conf_low": 43.0019,
-          "conf_high": 47.2215
+          "prediction": 44.9126,
+          "conf_low": 42.8714,
+          "conf_high": 46.9538
         },
         {
           "date": "2025-06-21",
-          "prediction": 45.1533,
-          "conf_low": 42.9778,
-          "conf_high": 47.3288
+          "prediction": 44.9544,
+          "conf_low": 42.8454,
+          "conf_high": 47.0634
         },
         {
           "date": "2025-06-22",
-          "prediction": 45.1721,
-          "conf_low": 42.9328,
-          "conf_high": 47.4114
+          "prediction": 44.9732,
+          "conf_low": 42.7985,
+          "conf_high": 47.148
         },
         {
           "date": "2025-06-23",
-          "prediction": 45.2034,
-          "conf_low": 42.9021,
-          "conf_high": 47.5048
+          "prediction": 45.0046,
+          "conf_low": 42.766,
+          "conf_high": 47.2431
         },
         {
           "date": "2025-06-24",
-          "prediction": 45.2764,
-          "conf_low": 42.9146,
-          "conf_high": 47.6381
+          "prediction": 45.0775,
+          "conf_low": 42.777,
+          "conf_high": 47.378
         },
         {
           "date": "2025-06-25",
-          "prediction": 45.2813,
-          "conf_low": 42.8607,
-          "conf_high": 47.702
+          "prediction": 45.0826,
+          "conf_low": 42.7217,
+          "conf_high": 47.4435
         },
         {
           "date": "2025-06-26",
-          "prediction": 45.2974,
-          "conf_low": 42.8193,
-          "conf_high": 47.7756
+          "prediction": 45.0987,
+          "conf_low": 42.6789,
+          "conf_high": 47.5184
         },
         {
           "date": "2025-06-27",
-          "prediction": 45.297,
-          "conf_low": 42.7627,
-          "conf_high": 47.8314
+          "prediction": 45.0983,
+          "conf_low": 42.621,
+          "conf_high": 47.5755
         },
         {
           "date": "2025-06-28",
-          "prediction": 45.2738,
-          "conf_low": 42.6845,
-          "conf_high": 47.8631
+          "prediction": 45.075,
+          "conf_low": 42.5416,
+          "conf_high": 47.6085
         },
         {
           "date": "2025-06-29",
-          "prediction": 45.359,
-          "conf_low": 42.7158,
-          "conf_high": 48.0022
+          "prediction": 45.1602,
+          "conf_low": 42.5718,
+          "conf_high": 47.7485
         },
         {
           "date": "2025-06-30",
-          "prediction": 45.4342,
-          "conf_low": 42.7383,
-          "conf_high": 48.1301
+          "prediction": 45.2352,
+          "conf_low": 42.593,
+          "conf_high": 47.8774
         },
         {
           "date": "2025-07-01",
-          "prediction": 45.4493,
-          "conf_low": 42.7016,
-          "conf_high": 48.1969
+          "prediction": 45.2502,
+          "conf_low": 42.5553,
+          "conf_high": 47.9451
         },
         {
           "date": "2025-07-02",
-          "prediction": 45.4703,
-          "conf_low": 42.6719,
-          "conf_high": 48.2688
+          "prediction": 45.2715,
+          "conf_low": 42.5249,
+          "conf_high": 48.0181
         },
         {
           "date": "2025-07-03",
-          "prediction": 45.5349,
-          "conf_low": 42.6866,
-          "conf_high": 48.3833
+          "prediction": 45.3362,
+          "conf_low": 42.5388,
+          "conf_high": 48.1336
         },
         {
           "date": "2025-07-04",
-          "prediction": 45.6164,
-          "conf_low": 42.7191,
-          "conf_high": 48.5138
+          "prediction": 45.4177,
+          "conf_low": 42.5704,
+          "conf_high": 48.2649
         },
         {
           "date": "2025-07-05",
-          "prediction": 45.6895,
-          "conf_low": 42.742,
-          "conf_high": 48.637
+          "prediction": 45.4866,
+          "conf_low": 42.5903,
+          "conf_high": 48.3828
         },
         {
           "date": "2025-07-06",
-          "prediction": 45.7629,
-          "conf_low": 42.7659,
-          "conf_high": 48.7599
+          "prediction": 45.5595,
+          "conf_low": 42.613,
+          "conf_high": 48.5059
         },
         {
           "date": "2025-07-07",
-          "prediction": 45.6743,
-          "conf_low": 42.6286,
-          "conf_high": 48.7199
+          "prediction": 45.4705,
+          "conf_low": 42.4746,
+          "conf_high": 48.4664
         },
         {
           "date": "2025-07-08",
-          "prediction": 45.7023,
-          "conf_low": 42.6088,
-          "conf_high": 48.7959
+          "prediction": 45.4985,
+          "conf_low": 42.454,
+          "conf_high": 48.543
         },
         {
           "date": "2025-07-09",
-          "prediction": 45.6798,
-          "conf_low": 42.5391,
-          "conf_high": 48.8205
+          "prediction": 45.4759,
+          "conf_low": 42.3835,
+          "conf_high": 48.5683
         },
         {
           "date": "2025-07-10",
-          "prediction": 45.7068,
-          "conf_low": 42.5197,
-          "conf_high": 48.8939
+          "prediction": 45.5029,
+          "conf_low": 42.3634,
+          "conf_high": 48.6425
         },
         {
           "date": "2025-07-11",
-          "prediction": 45.7021,
-          "conf_low": 42.4692,
-          "conf_high": 48.935
+          "prediction": 45.4982,
+          "conf_low": 42.3122,
+          "conf_high": 48.6842
         },
         {
           "date": "2025-07-12",
-          "prediction": 45.7478,
-          "conf_low": 42.4698,
-          "conf_high": 49.0259
+          "prediction": 45.544,
+          "conf_low": 42.3123,
+          "conf_high": 48.7758
         },
         {
           "date": "2025-07-13",
-          "prediction": 45.792,
-          "conf_low": 42.4695,
-          "conf_high": 49.1146
+          "prediction": 45.5883,
+          "conf_low": 42.3114,
+          "conf_high": 48.8652
         },
         {
           "date": "2025-07-14",
-          "prediction": 45.8688,
-          "conf_low": 42.5023,
-          "conf_high": 49.2353
+          "prediction": 45.6651,
+          "conf_low": 42.3437,
+          "conf_high": 48.9866
         },
         {
           "date": "2025-07-15",
-          "prediction": 45.9378,
-          "conf_low": 42.528,
-          "conf_high": 49.3477
+          "prediction": 45.734,
+          "conf_low": 42.3686,
+          "conf_high": 49.0994
         },
         {
           "date": "2025-07-16",
-          "prediction": 45.9407,
-          "conf_low": 42.488,
-          "conf_high": 49.3934
+          "prediction": 45.7369,
+          "conf_low": 42.3281,
+          "conf_high": 49.1456
         },
         {
           "date": "2025-07-17",
-          "prediction": 45.9857,
-          "conf_low": 42.4907,
-          "conf_high": 49.4807
+          "prediction": 45.782,
+          "conf_low": 42.3304,
+          "conf_high": 49.2336
         },
         {
           "date": "2025-07-18",
-          "prediction": 46.0461,
-          "conf_low": 42.5093,
-          "conf_high": 49.5829
+          "prediction": 45.8424,
+          "conf_low": 42.3485,
+          "conf_high": 49.3363
         },
         {
           "date": "2025-07-19",
-          "prediction": 46.036,
-          "conf_low": 42.4578,
-          "conf_high": 49.6141
+          "prediction": 45.8323,
+          "conf_low": 42.2966,
+          "conf_high": 49.368
         },
         {
           "date": "2025-07-20",
-          "prediction": 46.0724,
-          "conf_low": 42.4534,
-          "conf_high": 49.6913
+          "prediction": 45.8687,
+          "conf_low": 42.2917,
+          "conf_high": 49.4457
         },
         {
           "date": "2025-07-21",
-          "prediction": 46.1159,
-          "conf_low": 42.4566,
-          "conf_high": 49.7752
+          "prediction": 45.9122,
+          "conf_low": 42.2943,
+          "conf_high": 49.53
         },
         {
           "date": "2025-07-22",
-          "prediction": 46.1339,
-          "conf_low": 42.4346,
-          "conf_high": 49.8331
+          "prediction": 45.9303,
+          "conf_low": 42.272,
+          "conf_high": 49.5885
         },
         {
           "date": "2025-07-23",
-          "prediction": 46.1647,
-          "conf_low": 42.426,
-          "conf_high": 49.9035
+          "prediction": 45.9612,
+          "conf_low": 42.263,
+          "conf_high": 49.6594
         },
         {
           "date": "2025-07-24",
-          "prediction": 46.2394,
-          "conf_low": 42.4615,
-          "conf_high": 50.0172
+          "prediction": 46.0357,
+          "conf_low": 42.298,
+          "conf_high": 49.7734
         },
         {
           "date": "2025-07-25",
-          "prediction": 46.2457,
-          "conf_low": 42.4291,
-          "conf_high": 50.0622
+          "prediction": 46.042,
+          "conf_low": 42.2652,
+          "conf_high": 49.8188
         },
         {
           "date": "2025-07-26",
-          "prediction": 46.2614,
-          "conf_low": 42.4066,
-          "conf_high": 50.1163
+          "prediction": 46.0578,
+          "conf_low": 42.2423,
+          "conf_high": 49.8733
         },
         {
           "date": "2025-07-27",
-          "prediction": 46.2617,
-          "conf_low": 42.3689,
-          "conf_high": 50.1545
+          "prediction": 46.058,
+          "conf_low": 42.2042,
+          "conf_high": 49.9118
         },
         {
           "date": "2025-07-28",
-          "prediction": 46.24,
-          "conf_low": 42.3096,
-          "conf_high": 50.1704
+          "prediction": 46.0362,
+          "conf_low": 42.1444,
+          "conf_high": 49.9279
         },
         {
           "date": "2025-07-29",
-          "prediction": 46.3241,
-          "conf_low": 42.3565,
-          "conf_high": 50.2917
+          "prediction": 46.1203,
+          "conf_low": 42.191,
+          "conf_high": 50.0496
         },
         {
           "date": "2025-07-30",
-          "prediction": 46.3989,
-          "conf_low": 42.3945,
-          "conf_high": 50.4034
+          "prediction": 46.195,
+          "conf_low": 42.2284,
+          "conf_high": 50.1615
         },
         {
           "date": "2025-07-31",
-          "prediction": 46.4132,
-          "conf_low": 42.3722,
-          "conf_high": 50.4542
+          "prediction": 46.2093,
+          "conf_low": 42.2059,
+          "conf_high": 50.2127
         },
         {
           "date": "2025-08-01",
-          "prediction": 46.4355,
-          "conf_low": 42.3583,
-          "conf_high": 50.5127
+          "prediction": 46.2317,
+          "conf_low": 42.1917,
+          "conf_high": 50.2716
         },
         {
           "date": "2025-08-02",
-          "prediction": 46.5017,
-          "conf_low": 42.3886,
-          "conf_high": 50.6148
+          "prediction": 46.2978,
+          "conf_low": 42.2217,
+          "conf_high": 50.3739
         },
         {
           "date": "2025-08-03",
-          "prediction": 46.5824,
-          "conf_low": 42.4338,
-          "conf_high": 50.7311
+          "prediction": 46.3786,
+          "conf_low": 42.2666,
+          "conf_high": 50.4906
         },
         {
           "date": "2025-08-04",
-          "prediction": 46.6554,
-          "conf_low": 42.4698,
-          "conf_high": 50.8411
+          "prediction": 46.4467,
+          "conf_low": 42.2991,
+          "conf_high": 50.5942
         },
         {
           "date": "2025-08-05",
-          "prediction": 46.7288,
-          "conf_low": 42.5064,
-          "conf_high": 50.9513
+          "prediction": 46.5195,
+          "conf_low": 42.3349,
+          "conf_high": 50.704
         },
         {
           "date": "2025-08-06",
-          "prediction": 46.6402,
-          "conf_low": 42.3813,
-          "conf_high": 50.8991
+          "prediction": 46.4305,
+          "conf_low": 42.2092,
+          "conf_high": 50.6518
         },
         {
           "date": "2025-08-07",
-          "prediction": 46.6683,
-          "conf_low": 42.3733,
-          "conf_high": 50.9633
+          "prediction": 46.4585,
+          "conf_low": 42.2009,
+          "conf_high": 50.7162
         },
         {
           "date": "2025-08-08",
-          "prediction": 46.6457,
-          "conf_low": 42.3149,
-          "conf_high": 50.9765
+          "prediction": 46.4359,
+          "conf_low": 42.1421,
+          "conf_high": 50.7297
         },
         {
           "date": "2025-08-09",
-          "prediction": 46.6728,
-          "conf_low": 42.3064,
-          "conf_high": 51.0391
+          "prediction": 46.4629,
+          "conf_low": 42.1334,
+          "conf_high": 50.7925
         },
         {
           "date": "2025-08-10",
-          "prediction": 46.668,
-          "conf_low": 42.2665,
-          "conf_high": 51.0696
+          "prediction": 46.4582,
+          "conf_low": 42.0931,
+          "conf_high": 50.8233
         },
         {
           "date": "2025-08-11",
-          "prediction": 46.7138,
-          "conf_low": 42.2773,
-          "conf_high": 51.1502
+          "prediction": 46.504,
+          "conf_low": 42.1037,
+          "conf_high": 50.9044
         },
         {
           "date": "2025-08-12",
-          "prediction": 46.758,
-          "conf_low": 42.2868,
-          "conf_high": 51.2291
+          "prediction": 46.5483,
+          "conf_low": 42.1131,
+          "conf_high": 50.9836
         },
         {
           "date": "2025-08-13",
-          "prediction": 46.8348,
-          "conf_low": 42.3292,
-          "conf_high": 51.3403
+          "prediction": 46.6251,
+          "conf_low": 42.1552,
+          "conf_high": 51.095
         },
         {
           "date": "2025-08-14",
-          "prediction": 46.9038,
-          "conf_low": 42.3641,
-          "conf_high": 51.4435
+          "prediction": 46.694,
+          "conf_low": 42.1897,
+          "conf_high": 51.1983
         },
         {
           "date": "2025-08-15",
-          "prediction": 46.9066,
-          "conf_low": 42.333,
-          "conf_high": 51.4802
+          "prediction": 46.6969,
+          "conf_low": 42.1584,
+          "conf_high": 51.2353
         },
         {
           "date": "2025-08-16",
-          "prediction": 46.9516,
-          "conf_low": 42.3444,
-          "conf_high": 51.5589
+          "prediction": 46.742,
+          "conf_low": 42.1696,
+          "conf_high": 51.3143
         },
         {
           "date": "2025-08-17",
-          "prediction": 47.0121,
-          "conf_low": 42.3714,
-          "conf_high": 51.6527
+          "prediction": 46.8024,
+          "conf_low": 42.1965,
+          "conf_high": 51.4084
         },
         {
           "date": "2025-08-18",
-          "prediction": 47.0019,
-          "conf_low": 42.3281,
-          "conf_high": 51.6757
+          "prediction": 46.7923,
+          "conf_low": 42.1529,
+          "conf_high": 51.4317
         },
         {
           "date": "2025-08-19",
-          "prediction": 47.0383,
-          "conf_low": 42.3316,
-          "conf_high": 51.745
+          "prediction": 46.8287,
+          "conf_low": 42.1562,
+          "conf_high": 51.5012
         },
         {
           "date": "2025-08-20",
-          "prediction": 47.0818,
-          "conf_low": 42.3424,
-          "conf_high": 51.8212
+          "prediction": 46.8722,
+          "conf_low": 42.1668,
+          "conf_high": 51.5776
         },
         {
           "date": "2025-08-21",
-          "prediction": 47.0998,
-          "conf_low": 42.3279,
-          "conf_high": 51.8717
+          "prediction": 46.8903,
+          "conf_low": 42.1522,
+          "conf_high": 51.6284
         },
         {
           "date": "2025-08-22",
-          "prediction": 47.1307,
-          "conf_low": 42.3265,
-          "conf_high": 51.9348
+          "prediction": 46.9212,
+          "conf_low": 42.1506,
+          "conf_high": 51.6918
         },
         {
           "date": "2025-08-23",
-          "prediction": 47.2053,
-          "conf_low": 42.3691,
-          "conf_high": 52.0415
+          "prediction": 46.9957,
+          "conf_low": 42.1928,
+          "conf_high": 51.7985
         },
         {
           "date": "2025-08-24",
-          "prediction": 47.2116,
-          "conf_low": 42.3436,
-          "conf_high": 52.0796
+          "prediction": 47.002,
+          "conf_low": 42.1671,
+          "conf_high": 51.8369
         },
         {
           "date": "2025-08-25",
-          "prediction": 47.2274,
-          "conf_low": 42.3277,
-          "conf_high": 52.127
+          "prediction": 47.0178,
+          "conf_low": 42.1511,
+          "conf_high": 51.8845
         },
         {
           "date": "2025-08-26",
-          "prediction": 47.2277,
-          "conf_low": 42.2966,
-          "conf_high": 52.1587
+          "prediction": 47.018,
+          "conf_low": 42.1197,
+          "conf_high": 51.9163
         },
         {
           "date": "2025-08-27",
-          "prediction": 47.2059,
-          "conf_low": 42.2437,
-          "conf_high": 52.1682
+          "prediction": 46.9962,
+          "conf_low": 42.0664,
+          "conf_high": 51.9259
         },
         {
           "date": "2025-08-28",
-          "prediction": 47.2901,
-          "conf_low": 42.2968,
-          "conf_high": 52.2834
+          "prediction": 47.0803,
+          "conf_low": 42.1194,
+          "conf_high": 52.0412
         },
         {
           "date": "2025-08-29",
-          "prediction": 47.3649,
-          "conf_low": 42.3407,
-          "conf_high": 52.389
+          "prediction": 47.155,
+          "conf_low": 42.163,
+          "conf_high": 52.1469
         },
         {
           "date": "2025-08-30",
-          "prediction": 47.3791,
-          "conf_low": 42.3243,
-          "conf_high": 52.4339
+          "prediction": 47.1693,
+          "conf_low": 42.1465,
+          "conf_high": 52.1921
         },
         {
           "date": "2025-08-31",
-          "prediction": 47.4014,
-          "conf_low": 42.3162,
-          "conf_high": 52.4867
+          "prediction": 47.1917,
+          "conf_low": 42.1382,
+          "conf_high": 52.2451
         },
         {
           "date": "2025-09-01",
-          "prediction": 47.4676,
-          "conf_low": 42.3521,
-          "conf_high": 52.5831
+          "prediction": 47.2578,
+          "conf_low": 42.1739,
+          "conf_high": 52.3417
         },
         {
           "date": "2025-09-02",
-          "prediction": 47.5484,
-          "conf_low": 42.4027,
-          "conf_high": 52.694
+          "prediction": 47.3386,
+          "conf_low": 42.2244,
+          "conf_high": 52.4528
+        },
+        {
+          "date": "2025-09-03",
+          "prediction": 47.4066,
+          "conf_low": 42.2624,
+          "conf_high": 52.5509
         }
       ]
     }
